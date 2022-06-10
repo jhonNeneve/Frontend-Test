@@ -54,6 +54,7 @@ module.exports = () => {
         user.phone = faker.phone.phoneNumber();
         user.avatar = faker.internet.avatar();
         user.email = faker.internet.email();
+        user.password = "123";
         user.address = {
             country: faker.address.country(),
             city: faker.address.city(),
